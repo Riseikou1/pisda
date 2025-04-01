@@ -1,0 +1,74 @@
+
+#source {
+  clear:both;
+  width:1000px;
+  margin:40px auto;
+  position:relative;
+}
+
+#source p {
+  text-align:center;
+  font-size:2em;  
+}
+
+#source #srcdown {
+  position:relative;
+  float:left; 
+  width:1000px;
+  top:0px;
+  height:40px;
+  margin:0px auto;
+}
+
+#source .filedown {
+  /*position: relative;*/
+  height:40px;
+  font-size:1em;
+  margin:10px 5px;
+  padding:0px 10px;
+  border-radius: 5px;
+  background:#0987ef;
+  color:#fff;
+  text-align:center;
+  line-height:40px;
+}
+
+#source .filedown:hover{
+  background:#06518f;
+  cursor : pointer;
+  color : hsl(0, 0%, 90%);
+}
+#source .filedown:active{
+  opacity: 0.7;
+  transform: scale(0.9);
+  background:rgb(46, 121, 234)
+}
+
+#source #source-url {
+  /*position: relative;*/
+  height:30px;
+  font-size:1.2em;
+}
+
+#source .newline {
+  clear:both;
+  position: relative;
+  height:40px;
+  top:20px;
+  left:20px;
+  font-size:1em;
+}
+
+#source #result {
+  position: relative;
+  top:5px;
+  left:30px;
+  font-size:1.0em;
+}
+
+#source #result-source {
+  position: relative;
+  top:5px;
+  left:30px;
+  font-size:1.0em;
+}
